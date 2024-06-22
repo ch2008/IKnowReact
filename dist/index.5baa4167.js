@@ -2959,59 +2959,84 @@ var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 const Root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 const Button = ()=>{
-    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "btn",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
                 children: " click me"
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "app.js",
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 5
         }, undefined)
     }, void 0, false);
 };
 _c = Button;
 const Hello = ()=>{
-    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "navigation",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "navigation",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: "React"
                     }, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 21,
-                        columnNumber: 10
+                        lineNumber: 24,
+                        columnNumber: 7
                     }, undefined)
                 }, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 20,
-                    columnNumber: 9
+                    lineNumber: 23,
+                    columnNumber: 6
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 28,
+                    columnNumber: 6
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 29,
+                    columnNumber: 6
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 30,
+                    columnNumber: 6
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 31,
+                    columnNumber: 6
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 32,
+                    columnNumber: 6
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 33,
+                    columnNumber: 6
                 }, undefined)
-            }, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 19,
-                columnNumber: 8
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
-                fileName: "app.js",
-                lineNumber: 26,
-                columnNumber: 5
-            }, undefined)
-        ]
-    }, void 0, true);
+            ]
+        }, void 0, true, {
+            fileName: "app.js",
+            lineNumber: 22,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false);
 };
 _c1 = Hello;
 Root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Hello, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 34,
+    lineNumber: 44,
     columnNumber: 15
 }, undefined));
 var _c, _c1;
