@@ -4,6 +4,8 @@
   "description": "react",
   "main": "app.js",
   "scripts": {
+    "dev-start":"parcel index.html",
+    "prod-build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -22,5 +24,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "browesersList":[
+    "last 2 versions"
+  ]
 }

@@ -2958,22 +2958,65 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 const Root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-const hello = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: " hello from react "
+const Button = ()=>{
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "btn",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: " click me"
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined)
         }, void 0, false, {
             fileName: "app.js",
-            lineNumber: 10,
-            columnNumber: 9
+            lineNumber: 11,
+            columnNumber: 5
         }, undefined)
-    }, void 0, false, {
-        fileName: "app.js",
-        lineNumber: 9,
-        columnNumber: 9
-    }, undefined);
+    }, void 0, false);
 };
-Root.render(hello);
+_c = Button;
+const Hello = ()=>{
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "navigation",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "React"
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 21,
+                        columnNumber: 10
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 19,
+                columnNumber: 8
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 26,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c1 = Hello;
+Root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Hello, {}, void 0, false, {
+    fileName: "app.js",
+    lineNumber: 34,
+    columnNumber: 15
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "Button");
+$RefreshReg$(_c1, "Hello");
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
