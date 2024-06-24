@@ -4,7 +4,7 @@
     box-sizing:border-box;
     background-color: azure;
 }
-.navigation{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,9 +13,13 @@
     padding: 25px;
     border: 2px solid wheat;
 }
-.navigation h1{
-    color: goldenrod;
-
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid gray;
+    padding: 5px;
+    margin: 6px;
 }
 .btn{
     display: flex;
