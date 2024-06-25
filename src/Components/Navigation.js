@@ -1,4 +1,5 @@
-import {Reservation} from "./Reservation";
+import Reservation from "./Reservation";
+
 // named import 
 const Navigation =()=>{
     return(
@@ -11,8 +12,13 @@ const Navigation =()=>{
                      Tamilnadu-641298
                   </p>
 
-                <div className="reservation">
-                < Reservation  value="RESERVATION"/>
+                <div className="reservation" onClick={()=>{
+                  const form=document.querySelector(".form");
+                form.style.display="block";
+                   
+                }}
+                >
+                < Reservation  value="RESERVATION"  />
                 </div>
             </div>
             <div className="ListInfo">

@@ -4,6 +4,7 @@
     box-sizing:border-box;
 
 }
+
 .navbar{
     display: flex;
     justify-content: space-evenly;
@@ -55,21 +56,8 @@
     margin-top: 30px;
     cursor: pointer;
 }
-.reservation :hover{
-    background-color: goldenrod;
-}
-.form{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 180px;
-    border: 2px solid red;
-    margin-left: 300px;
-    
-}
-.form input{
-    color: aquamarine;
-}
+
+
 .ListInfo{
     display: flex;
     justify-content: space-between;
@@ -100,3 +88,68 @@
    
 }
 
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+    width: 243px;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-left: 250px;
+    border: 2px solid white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    gap: 100px;
+    background:linear-gradient(45deg,black,  gray, black);
+    display:none ;
+    
+}
+.form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    padding: 20px;
+    text-align: center;
+ 
+    background-color: white;
+    width: 98%;
+    height: 40px;
+    font-weight: lighter;
+    font-family: cursive;
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+.form p{
+    color:whitesmoke;
+    font-family: cursive;
+    
+    font-weight: lighter;
+    font-size: medium;
+}
+.findTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    padding: 10px;
+    background-color: white;
+    width: 98%;
+    height: 40px;
+    font-weight: lighter;
+    font-family: cursive;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center; 
+}
+.cross{
+    margin-left: 180px;
+    cursor: pointer;
+    font-weight: 800;
+    font-size:xx-large;
+}

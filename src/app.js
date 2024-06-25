@@ -11,10 +11,17 @@ const Root=ReactDOM.createRoot(document.getElementById("root"));
 const Start =()=>{
  return(
     <>
+    <div className="main">
     <div>
-        
-      <Navigation/>
-      <Form/>
+      
+     <Navigation/>
+    
+    </div>
+     
+    <div>
+    <Form/>
+    </div>
+
     </div>
     </>
 )
