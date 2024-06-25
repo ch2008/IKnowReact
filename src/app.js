@@ -1,21 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Navigation from "./Components/Navigation";
+import Navigation from "./Components/Navigation.js";
+import Form from "./Components/Form";
 
 const Root=ReactDOM.createRoot(document.getElementById("root"));
   
 
 
 
-const Starts=()=>{
-return(
+const Start =()=>{
+ return(
     <>
     <div>
-      <Navigation></Navigation>
+        
+      <Navigation/>
+      <Form/>
     </div>
     </>
 )
 
 
 }
-Root.render(Starts)
+Root.render(<Start/>)
