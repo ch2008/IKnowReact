@@ -1,5 +1,6 @@
 import Reservation from "./Reservation";
 
+
 // named import 
 const Navigation =()=>{
     return(
@@ -26,7 +27,10 @@ const Navigation =()=>{
                     <li>HOME</li>
                     <li>ABOUT</li>
                     <li>GALARY</li>
-                    <li>MENU</li>
+                    <li><a onClick={()=>{
+                        const menus=document.querySelector(".menu")
+                        menus.style.display="block"
+                    }}>MENU</a></li>
                     <li>ORDER-ONLINE</li>
                     <li>CONTACT</li>
 
