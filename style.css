@@ -6,7 +6,18 @@
 
 }
 
-
+.background-Image{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border: 2px solid red;
+}
+.background-Image img{
+    max-width: 90%;
+}
 
 .navbar{
     display: flex;
