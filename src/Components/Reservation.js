@@ -3,9 +3,9 @@
     
     return(
         <>
-        <div  >
+        <div >
           <h3>
-           { props.value}
+           { props.value }
           </h3>
         </div>
         </>

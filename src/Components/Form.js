@@ -1,7 +1,9 @@
 
 
 
+
 const Form = () => {
+    
     return (
         <>
             <div className="form">
@@ -20,6 +22,7 @@ const Form = () => {
 
                     <p> number of people</p>
                     <input type="text" name="name" />
+                   
                 </div>
                 <div>
                     <p> find a date</p>
@@ -27,7 +30,16 @@ const Form = () => {
 
                 </div>
 
-                <div className="findTable">
+                <div className="findTable" onClick={()=>{
+                       const input=document.getElementsByTagName("input")
+                     if (input.value=="") {
+                     
+                        alert("plese don't leave any box emptyss")
+                        
+                     } else {
+                        
+                     }
+                }}>
                     <h3>
                         Find a table
                     </h3>

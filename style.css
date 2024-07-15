@@ -11,12 +11,16 @@
     justify-content:center ;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 30px;
-    border: 2px solid red;
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke
 }
-.background-Image img{
-    max-width: 90%;
+.background-Image h1{
+   font-family: cursive;
+
+
 }
 
 .navbar{
@@ -174,7 +178,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    width:90%;
+    width:95%;
     height: 700px;
     margin-top: 30px;
     display:none ;
@@ -207,27 +211,29 @@
 
 }
 .menu ul li{
-   text-decoration: none;
+    list-style: none;
+  
    text-align: center;
-   background-color: goldenrod;
+   background-color:black;
    font-size: large;
    font-weight: bold;
    font-family: cursive;
-   color: black;
+   color: white;
    cursor: pointer;
    padding: 20px;
    height:50px ;
  
   
 }
-.menu li :hover{
+.menu li:hover{
   color: goldenrod;
   background-color: black;
 }
-.menuCross{
-    margin-left: 380px;
+.close{
+   text-align: right;
     cursor: pointer;
-    font-weight: 800;
+    font-weight:lighter ;
+    font-size: smaller;
     font-size:xx-large;
     color: white;
 }

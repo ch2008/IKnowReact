@@ -14,7 +14,9 @@ const Body=()=>{
         <div className="background-Image">
 
            <div>
-           <img src={pictureUrl} alt="background image"/>
+            <h1>
+                The khana
+            </h1>
            </div>
 
         </div>

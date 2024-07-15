@@ -1,8 +1,10 @@
+import { useEffect } from "react";
 import Reservation from "./Reservation";
 
 
 // named import 
 const Navigation =()=>{
+   
     return(
         <>
         <div className="navbar">
@@ -14,8 +16,11 @@ const Navigation =()=>{
                   </p>
 
                 <div className="reservation" onClick={()=>{
-                  const form=document.querySelector(".form");
+                
+                const form=document.querySelector(".form");
                 form.style.display="block";
+
+                
                    
                 }}
                 >

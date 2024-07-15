@@ -8,12 +8,11 @@ const Menu = () => {
     return (
         <>
             <div className="menu" >
-                <div>
-                <p className="cross" onClick={() => {
-                    const cross = document.querySelector(".menu");
-                    cross.style.display = "none";
-                }}
-                >X</p>
+                <div className="close" onClick={()=>{
+                    const closed=document.querySelector(".menu");
+                     closed.style.display = "none";
+                }}>
+                <h4>close</h4>
                 </div>
             
 
